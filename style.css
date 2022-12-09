@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.leaf {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+}
+
+.leaf > div {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transform-origin: 300px;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.color01 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(0deg);
+  animation-name: color;
+}
+.color02 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(30deg);
+  animation-name: color;
+}
+.color03 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(60deg);
+  animation-name: color;
+}
+.color04 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(90deg);
+  animation-name: color;
+}
+.color05 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(120deg);
+  animation-name: color;
+}
+.color06 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(150deg);
+  animation-name: color;
+}
+.color07 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(180deg);
+  animation-name: color;
+}
+.color08 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(210deg);
+  animation-name: color;
+}
+.color09 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(240deg);
+  animation-name: color;
+}
+.color10 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(270deg);
+  animation-name: color;
+}
+.color11 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(300deg);
+  animation-name: color;
+}
+.color12 {
+  background-color: rgba(238, 15, 145, 0.5);
+  transform: translate(0px, 150px) rotate(330deg);
+  animation-name: color;
+}
+@keyframes color {
+  20% {
+    transform: translate(0px, 150px) rotate(-360deg);
+  }
+}
